@@ -6,7 +6,7 @@
 
 ## 支持开发者
 
-如果您感到我的项目为您提供了帮助，希望您可以不吝请我喝杯咖啡，不胜感激。
+如果您感到我的项目为您提供了帮助，希望您可以不吝请我喝瓶可乐，不胜感激。
 
 ![image](https://github.com/tzattack/Idcard_random_generator/blob/master/WechatIMG218.jpeg)
 
