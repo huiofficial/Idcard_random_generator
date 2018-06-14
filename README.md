@@ -7,9 +7,10 @@
 ## 支持开发者
 
 如果您感到我的项目为您提供了帮助，希望您可以不吝请我喝杯咖啡，不胜感激。
+
 ![image](https://github.com/tzattack/Idcard_random_generator/blob/master/WechatIMG218.jpeg)
 
-如果有任何技术上的问题，可以随时联系我，邮箱为tzattack@gmail.com，微信为13151052286，微博为@tzattack，欢迎交流。
+如果有任何技术上的问题，可以随时联系我，邮箱：tzattack@gmail.com，微信：13151052286，微博：weibo.com/tzattack 欢迎交流。
 
    
 ## 环境 Environment
