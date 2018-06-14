@@ -1,19 +1,9 @@
-# idcardgenerator
+# 身份证图片随机生成器 Idcard image random generator
 
-身份证图片生成工具,填入信息，选择一张头像图片（即可生成黑白和彩色身份证图片。
-
-可以选择是否自动抠图，自动抠图目前仅支持蓝色背景，对自动抠图效果不满意可以手动抠图。
-
-在线抠图地址:(<https://burner.bonanza.com/>)
-
-(<https://www.gaoding.com/koutu>)
-
-## ToDo
-
--   自动从复杂背景下抠图
+## Inspired by
+https://github.com/airob0t/idcardgenerator
 
 ## 环境
-
 -   numpy
 -   pillow
 -   opencv
@@ -27,3 +17,7 @@
 ### 背面
 
 　　左上角为国徽，用红色油墨印刷;其右侧为证件名称“中华人民共和国居民身份证”，分上下两排排列，其中上排的“中华人民共和国”为4号宋体字，下排的“居民身份证”为2号宋体字;“签发机关”、“有效期限”为6号加粗黑体字;签发机关登记项采用，“xx市公安局”;有效期限采用“xxxx.xx-xxxx.xx.xx”格式，使用5号黑体字印刷，全部用黑色油墨印刷。
+  
+## 支持开发者
+	
+
