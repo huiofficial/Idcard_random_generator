@@ -10,7 +10,7 @@
 
 ![image](https://github.com/tzattack/Idcard_random_generator/blob/master/WechatIMG218.jpeg)
 
-如果有任何技术上的问题，可以随时联系我，[邮箱]tzattack@gmail.com [微博]weibo.com/tzattack 欢迎交流。
+如果有任何技术上的问题，可以随时联系我，[邮箱](tzattack@gmail.com) [微博](weibo.com/tzattack) 欢迎交流。
 
    
 ## 环境 Environment
