@@ -100,7 +100,7 @@ def generator(num):
     im = changeBackground(avatar, im, (500, 670), (690, 1500))
     im = PImage.fromarray(cv2.cvtColor(im, cv2.COLOR_BGR2RGB))
 
-    im.save(os.path.join(result_dir, 'color_' + str(num) + '.png'))
+    im.save(os.path.join(result_dir, 'img_' + str(num) + '.png'))
     # im.convert('L').save('bw_' + str(num) + '.png')
 
     print("Idcard #", num, " has successfully been created!")
@@ -108,31 +108,46 @@ def generator(num):
 
 if __name__ == '__main__':
     global name, sex, nation, year, mon, day, addr, idn, org, life
-    for i in range(10000):
+    for i in range(100000):
+        text_file = "img_" + str(i) + ".txt"
+        f = open(os.path.join(result_dir, text_file), 'w+')
         print("========================================================")
         name = get_name()
         print('name: \t\t', name)
+        f.write('616,684,848,684,848,764,616,764,' + name + '\n')
         sex = get_sex()
         print('sex: \t\t', sex)
+        f.write('616,832,696,832,696,908,616,908,' + sex + '\n')
         nation = get_nation()
         print('nation: \t', nation)
+        f.write('1016,832,1224,832,1124,908,1016,908,' + nation + '\n')
         date = get_date()
         year = date.y
         print('year: \t\t', year)
+        f.write('616,968,764,968,764,1044,616,1044,' + year + '\n')
         mon = date.m
         print('month: \t\t', mon)
+        f.write('936,968,1020,968,1020,1044,936,1044,' + mon + '\n')
         day = date.d
         print('day: \t\t', day)
+        f.write('1140,968,1224,968,1224,1044,1140,1044,' + day + '\n')
         addr = get_string(15)
         print('address: \t', addr)
+        f.write('616,1104,1300,1104,1300,1184,616,1184,' + addr[0:11] + '\n')
+        f.write('616,1208,876,1208,876,1288,616,1288,' + addr[11:] + '\n')
         if sex == '男':
             idn = get_id(1)
         elif sex == '女':
             idn = get_id(0)
         print('id: \t\t', idn)
+        f.write('932,1460,1728,1460,1728,1548,932,1548,' + idn + '\n')
         org = get_string(10)
         print('org: \t\t', org)
+        f.write('1024,2732,1664,2732,1664,2820,1024,2820,' + org + '\n')
         life_ = get_date()
         life = life_.y + life_.m + life_.d
         print('life: \t\t', life)
+        f.write('1024,2892,1296,2892,1296,2960,1024,2960,' + life + '\n')
+        f.close()
+        print("text file saved!", text_file)
         generator(i)
