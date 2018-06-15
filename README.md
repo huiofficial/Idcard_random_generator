@@ -8,7 +8,7 @@
 
 如果您感到我的项目为您提供了帮助，希望您可以不吝请我喝瓶可乐，不胜感激。
 
-![image](https://github.com/tzattack/Idcard_random_generator/blob/master/WechatIMG218.jpeg)
+![image](https://github.com/tzattack/Idcard_random_generator/blob/master/readme/WechatIMG218.jpeg)
 
 如果有任何技术上的问题，可以随时联系我（[邮箱](tzattack@gmail.com)，[微博](weibo.com/tzattack)），欢迎交流。
 
