@@ -1,4 +1,4 @@
 numpy==1.14.0
-Pillow==5.0.0
+Pillow==7.1.0
 PyInstaller==3.6
 chinese_province_city_area_mapper
